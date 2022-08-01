@@ -577,6 +577,10 @@ img {
   padding-right: 10px;
   color: var(--light-txt-cl);
 }
+.subscription-input:hover,
+.subscription-input:focus{
+  border-color: var(--accent-txt-cl);
+}
 .subscription-btn{
   width: 200px;
   height: 50px;
