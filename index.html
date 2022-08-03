@@ -550,15 +550,22 @@
         </div>
         <div class="subscription">
           <p class="subscription-text">Подпишитесь на рассылку</p>
-          <label class="subscription-lable">
-            <input class="subscription-input" type="email" name="user-email" placeholder="E-mail" />
-          </label>
-          <button class="subscription-btn btn btn-accent" type="submit">
-            Подписаться
-            <svg class="subscription-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-send"></use>
-            </svg>
-          </button>
+          <form class="subscription-form">
+            <label class="subscription-lable">
+              <input
+                class="subscription-input"
+                type="email"
+                name="user-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="subscription-btn" type="submit">
+              Подписаться
+              <svg class="subscription-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
